@@ -1,0 +1,36 @@
+<!DOCTYPE html> 
+<html lang="en">
+<style>
+fieldset {width: 320px;
+border: 2px ridge #ff0000;
+padding: 10px;
+margin-bottom: 10px;}
+legend {font-family: Georgia, 'Times New Roman', Times, serif; font-weight: bold;}
+label {font-family: Arial, Helvetica, sans-serif;}
+</style>
+<head> 
+<title>Form Example1</title>
+<meta charset="utf-8">
+</head>
+<body>
+<h1>Contact Us</h1>
+<form>
+<fieldset>
+    <legend>Customer Information</legend>
+    <label>First Name:
+    <input type="text" name="fname" id="fname"></label>
+    <br><br>
+    <label>Last Name:
+    <input type="text" name="lname" id="lname"></label>
+    <br><br>
+    <label>Email:
+    <input type="text" name="Email" id="Email"></label>
+    </fieldset>
+  <label for="comments">Comments:<br></label>
+  <textarea id="comments" name="comments" rows="4" cols="40"></textarea><br>
+
+  <input type="submit" value="Contact">
+  <input type="reset" value="Reset">
+</form>
+</body>
+</html>
